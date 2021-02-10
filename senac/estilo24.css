@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+header{
+	max-width: 200px;
+	height: 100%;
+	height: 100vh;
+	padding: 0 30px;
+	background-color: #000;
+	position: relative;
+
+	background:linear-gradient(180deg, rgba(50,50,50,0.9) 0%, rgba(10,10,10,0.9) 100%);
+}
+
+h1,h2,h3,h4,h5,h6,#menu-principal a{
+	font-family: 'Anton', sans-serif;
+}
+
+#logo{
+	margin: 0;
+	padding: 0;
+}
+
+#logo img{
+	max-width: 200px;
+}
+
+#menu-principal ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu-principal ul li{
+	text-align: center;
+}
+
+#menu-principal a{
+	color: #fcfcee;
+	font-size: 1.75rem;
+	text-decoration: none;
+}
+
+#menu-principal a:hover{
+	color: #fbb040;
+}
+
+.footer{
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	color: #fcfcee;
+	max-width: 200px;
+}
+
+.footer hr{
+	border: 1px solid #fbb040;
+	margin-top: 30px;
+}
+
+
+#menu-social a, #copy a{
+	color: #ddddcc;
+}
+
+#menu-social a:hover, #copy a:hover{
+	color: #fbb040;
+}
+
+#menu-social a{
+	font-size: 1.5rem;
+	margin: 5px;
+}
+
+
+.video-fundo{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	object-fit: fill;
+}
